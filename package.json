@@ -6,6 +6,10 @@
   "keywords": [],
   "author": "Saurabh Mahajan",
   "license": "ISC",
+  "scripts": {
+    "start": "npx parcel helloWorld.html",
+    "build": "parcel build helloWorld.html"
+  },
   "devDependencies": {
     "parcel": "^2.14.4"
   },
