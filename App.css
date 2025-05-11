@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+
+
+ #main-header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+#logo-container img { height: 100px; }
+#nav-container ul { display: flex; }
+
+#nav-container li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+#body-container {
+    display: flex;
+    border: 1px soild grey;
+    margin: 4px;
+    flex-direction: column;
+}
+#resto-container {
+    display: flex;
+} 
+ /* passing it from object
+#restro-card {
+    width: 200px;
+    padding: 5px;
+    margin: 20px;
+} */
+
+#restro-card img {
+    width: 190px;
+}
+#restro-card:hover {
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 10px;;
+}
+.statusOnline {
+    color: green;
+}
+.statusOffline{
+    color: red;
+} 
